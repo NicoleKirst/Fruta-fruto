@@ -1,0 +1,31 @@
+.sobre {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.sobre__titulo {
+    color: var(--Vermelho-vinho);
+    font-family: var(--Pacifico);
+    text-shadow: 0 1px var(--Preto);
+    font-weight: initial;
+    font-size: 3.1875rem;
+}
+
+.sobre__descricao {
+    color: var(--Font-Cinza);
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+
+
+@media (max-width: 610px) {
+    .sobre__titulo {
+        font-size: 1.5rem;
+    }
+
+    .sobre__descricao {
+        font-size: .75rem;
+        font-weight: 300;
+    }
+}
