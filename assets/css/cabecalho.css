@@ -1,11 +1,11 @@
 .cabecalho {
-    background-color: var(--Cinza-claro);
     align-items: center;
+    background-color: var(--Cinza-claro);
     display: flex;
     justify-content: space-between;
-    text-transform: lowercase;
     padding-left: 2rem;
     padding-right: 2rem;
+    text-transform: lowercase; 
 }
 
 .menu {
@@ -25,9 +25,8 @@
 .menu__link {
     color: var(--Cinza-medio);
     margin-right: 1.25rem;
-    text-decoration: none;
     padding-bottom: 3px;
-    
+    text-decoration: none;    
 }
 
 .menu__link.ativo {
@@ -44,8 +43,8 @@
 @media (max-width: 610px) {
     .cabecalho {
         flex-direction: column;
-        width: 100%;
         padding: 0;
+        width: 100%;
    }
    .menu__link {
        margin-left: .5rem;

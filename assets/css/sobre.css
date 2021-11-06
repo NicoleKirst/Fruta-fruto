@@ -6,9 +6,9 @@
 .sobre__titulo {
     color: var(--Vermelho-vinho);
     font-family: var(--Pacifico);
-    text-shadow: 0 1px var(--Preto);
-    font-weight: initial;
     font-size: 3.1875rem;
+    font-weight: initial;
+    text-shadow: 0 1px var(--Preto);
 }
 
 .sobre__descricao {

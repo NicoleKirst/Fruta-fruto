@@ -34,32 +34,32 @@
 
 .receita__botao {
     background-color: var(--Vermelho-vinho);
-    color: var(--Branco-medio);
     border: none;
     border-radius: 5px;
+    color: var(--Branco-medio);
     padding: 1rem;
     transition: all .1s ease-in-out;
 }
 
 .receita__botao:hover {
-    cursor: pointer;
     background-color: var(--Backgroud-vermelho-escuro);
+    cursor: pointer;
     /* transform: scale(1.05) */
 }
 
 
 @media (max-width: 610px) {
     .receitas {
+        align-items: center;
         display: block;
         flex-direction: column;
-        align-items: center;
         flex-wrap: none;
         padding: 0;
     }
     .receita {
+        align-items: center;
         display: block;
         flex-direction: column;
-        align-items: center;
         width: 100vw;
     }
     .receita__imagem {

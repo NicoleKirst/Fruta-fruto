@@ -1,10 +1,11 @@
 :root{
+    --Branco-medio: #fdfdfd;
     --Cinza-claro: #f9f9f9;
     --Cinza-medio: #808080;
     --Cinza-escuro: #333333;
-    --Branco-medio: #fdfdfd;
-    --Preto: #000000e7;
     --Vermelho-vinho: #8d0606;
+    --Preto: #000000e7;
+    
 
     --Backgroud-claro: #E5E5E5;
     --Backgroud-vermelho-escuro: #720000;

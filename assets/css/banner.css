@@ -3,22 +3,23 @@
 }
 
 .banner__imagem {
-    width: 100%;
+    background: url(../img/banner.jpg) no-repeat center / cover;
     height: calc(100vh - 72px);
+    width: 100%;    
 }
 
 .banner__titulo {
-    font-family: var(--Pacifico);
     color: var(--Branco-medio);
-    text-shadow: 0 4px 4px var(--Preto);
+    font-family: var(--Pacifico);
     font-size: 5.0625rem;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%,-50%);
-    width: 100%;
     font-weight: initial;
+    left: 50%;
+    text-align: center;
+    text-shadow: 0 4px 4px var(--Preto);
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 100%;    
 }
 
 
